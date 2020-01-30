@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer style={{textAlign: 'center'}}>
           Copyright © Todos os Direitos Reservados a Esquadraflex 
           © {new Date().getFullYear()}
         </footer>

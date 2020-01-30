@@ -5,16 +5,19 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import Fab from '@material-ui/core/Fab';
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+
+    <div style={{textAlign: 'center', width: '100%', paddingBottom: '20px'}}>
+      <p>Seja bem-vindo ao nosso site</p>
+      <Fab variant="extended" href="/qrcode/cartao-de-visita/" style={{backgroundColor: '#19A7A4', color: 'white'}}>
+        Veja os nossos contatos
+      </Fab>
+      <br />
     </div>
-    <Link to="/qrcode/cartao-de-visita/">Contatos</Link>
   </Layout>
 )
 

@@ -26,7 +26,12 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(1),
   },
   item: {
-    textAlign: "center"
+    textAlign: "center",
+    
+
+    '.MuiFab-root': {
+      textTransform: 'lowercase',
+    }
   }
 }));
 
@@ -39,7 +44,8 @@ const SecondPage = () => {
       
       <Grid container spacing={2} justify="center">
         <Grid item xs={12} className={classes.item}>
-          <h1>Nossos contatos</h1>
+          <h1 style={{paddingTop: '10px', marginBottom: '.5rem'}}>Esquadraflex</h1>
+          <p style={{marginBottom: '0'}}>Nossos contatos</p>
         </Grid>
         <Grid item xs={12} className={classes.item}>
           <Fab variant="extended" href="tel:11970665695" style={{backgroundColor: '#19A7A4', color: 'white'}}>
