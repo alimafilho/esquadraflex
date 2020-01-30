@@ -53,7 +53,8 @@ const SecondPage = () => {
           </Fab>
         </Grid>
         <Grid item xs={12} className={classes.item}>
-          <Fab variant="extended" href="https://wa.me/5511970665695?text=Olá,em%20que%20posso%20ajudar" style={{backgroundColor: '#25d366', color: 'white'}}>
+          {/* <Fab variant="extended" href="https://wa.me/5511970665695?text=Olá,em%20que%20posso%20ajudar" style={{backgroundColor: '#25d366', color: 'white'}}> */}
+          <Fab variant="extended" href="https://wa.me/5511970665695?text=" style={{backgroundColor: '#25d366', color: 'white'}}>
             <WhatsAppIcon className={classes.extendedIcon} /> WhatsApp
           </Fab>
         </Grid>
